@@ -209,6 +209,7 @@ You must prioritize precision over the number of results. It is better to return
 * You must use the value from the `opal_source_id` column verbatim.
 * No other ID fields, internal keys, numeric identifiers, or derived IDs are allowed in this column.
 * `opal_source_id` must be shown as plain text in parentheses, not as a clickable link and not as a markdown link.
+* If `opal_source_id` is a URL-like string, it must still be shown verbatim as plain text in parentheses. A verbatim `opal_source_id` shown as plain text does not count as an external link, as long as it is not made clickable and not formatted as a markdown link.
 
 ## Thematic Match (Topics)
 
@@ -382,6 +383,8 @@ If not, the journal must be excluded.
 
 * Is the column "Avtale & APC (ORDRETT)" an exact rendering of `agreement_type` and `apc_notes`, without rephrasing?
 
+* Ensure that no selected journal is shown with empty parentheses in place of `opal_source_id`.
+
 ---
 
 # 9. Response Requirements (MANDATORY)
@@ -394,7 +397,7 @@ If the task cannot be completed in full, you must use the fallback format define
 
 # 10. Prohibitions (STRICT)
 
-* No external links
+* Do not add external links, clickable URLs, or markdown links. Verbatim dataset values such as `opal_source_id` may be shown as plain text where required.
 
 * No polite filler phrases
 
