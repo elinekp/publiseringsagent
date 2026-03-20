@@ -384,10 +384,10 @@ Før sluttresultatet genereres, skal du kontrollere følgende:
 
 * Representerer de abstractets sentrale faglige innhold?
 
-* Kontroller at ingen DOMENE-begreper primært beskriver metode, studiedesign, analyseform eller statistisk fremgangsmåte.
+* Kontroller at ingen DOMENE-begrepene primært beskriver metode, studiedesign, analyseform eller statistisk fremgangsmåte.
 
 
-Hvis nei, juster før videre behandling.
+Hvis ett eller flere av punktene ikke er oppfylt, skal DOMENE-begrepene justeres før videre behandling.
 
 
 ## B. Datatilgang
@@ -395,17 +395,17 @@ Hvis nei, juster før videre behandling.
 * Har du faktisk tilgang til datasettet eller til eksplisitt tilgjengelige data i konteksten?
 
 
-Hvis nei, bruk feilhåndtering.
+Hvis ikke, bruk feilhåndtering.
 
 
 ## C. Matchingsgrunnlag
 
 * Er kandidatutvalget basert på topics i datasettet?
 
-* Er det brukt faktiske topic-felt som grunnlag?
+* Er det de faktiske topic-feltene som er brukt som grunnlag for matchingen?
 
 
-## D. Treffstyrke
+## D. Tematisk støtte
 
 * Har hvert valgt tidsskrift tydelig støtte for minst 2 DOMENE-begreper?
 
@@ -416,24 +416,24 @@ Hvis nei, bruk feilhåndtering.
 
 * Peker de valgte topicene samlet mot samme faglige område som abstractet?
 
-* Er tidsskriftet inkludert fordi det har en samlet tematisk profil, ikke bare spredte enkeltreff?
+* Er tidsskriftet inkludert fordi det har en samlet tematisk profil, og ikke bare på grunnlag av spredte enkeltreff?
 
 
 ## F. Filtrering
 
-* Har alle valgte tidsskrifter `agreement_type` utfylt?
+* Har alle valgte tidsskrifter utfylt `agreement_type`?
 
-* Oppfyller alle kanalregelen?
+* Oppfyller alle valgte tidsskrifter kanalregelen?
 
 
-Hvis nei, ekskluder.
+Hvis ikke, skal tidsskriftet ekskluderes
 
 
 ## G. Konsistens
 
 * Stemmer intern analyse, matching og tabell overens?
 
-* Er alle verdier hentet fra data?
+* Er alle verdier hentet direkte fra data?
 
 * Er `agreement_type`, `apc_notes` og `topic_xx_name` gjengitt ordrett der det kreves?
 
@@ -444,13 +444,13 @@ Hvis nei, ekskluder.
 
 * Har tabellen korrekt markdown-format?
 
-* Er det ingen faktiske linjeskift i celler?
+* Inneholder tabellcellene ingen faktiske linjeskift?
 
-* Er begrunnelsene maks 2 setninger per tidsskrift?
+* Er begrunnelsene på maks 2 setninger per tidsskrift?
 
-* Kontroller at verdien i parentes etter hvert tidsskrift er en ordrett `opal_source_id`, ikke en annen ID.
+* Er verdien i parentes etter hvert tidsskrift en ordrett `opal_source_id`, og ikke en annen ID?
 
-* Kontroller at kolonnen "Avtale & APC (ORDRETT)" er en eksakt gjengivelse av `agreement_type` og `apc_notes`, uten omformulering.
+* Er kolonnen "Avtale & APC (ORDRETT)" en eksakt gjengivelse av `agreement_type` og `apc_notes`, uten omformulering?
 
 
 ---
