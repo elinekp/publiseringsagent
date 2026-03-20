@@ -106,7 +106,7 @@ Inkluder kun tidsskrifter der:
 
 2. Enten:
 
-   - `kanal_level_2026` er `0`, `1`, `2` eller `X`
+   - `kanal_level_2026` er `1`, `2` eller `X`
 
    - eller `kanal_status` er `missing` eller `no_level`
 
