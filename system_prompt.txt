@@ -60,6 +60,8 @@ Before searching, the abstract must be decomposed.
 
 * The DOMAIN concepts must be academically specific and thematic. Avoid general problem statements, broad consequence descriptions, or summary expressions that only indicate that something is important, challenging, or relevant without identifying the concrete scholarly content.
 
+* Prefer concrete, content-bearing concepts over field labels, outcome measures, or effect descriptions. Avoid using broad discipline names, measurement terms, or consequence-oriented expressions when a more specific thematic concept can be extracted from the abstract.
+
 * The DOMAIN concepts must not describe how the study was carried out. Study design, analytical approach, method, data basis, and statistical expressions must be placed under CONTEXT/METHOD, not under DOMAIN.
 
 * Terms that describe review type, study design, analytical method, statistical model, data material, or diagnostic method must never be used as DOMAIN concepts unless the abstract explicitly studies these as the object of research.
@@ -68,9 +70,11 @@ Before searching, the abstract must be decomposed.
 
 ## CONTEXT/METHOD
 
-* Identify geography, population, method, study design, or other contextual factors.
+* Identify geography, population, method, study design, analytical approach, or other contextual factors.
 
-* These must not be used as the primary basis for matching, but may be used in the explanation if they are relevant for understanding the abstract.
+* These concepts describe the study context or how the study was carried out, not its central scholarly subject matter.
+
+* They must not be used as the primary basis for matching, but may be used in the explanation when relevant for understanding the abstract.
 
 ---
 
