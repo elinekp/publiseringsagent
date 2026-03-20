@@ -72,10 +72,6 @@ Før søk skal abstractet dekomponeres.
 
 ## DOMENE (Primært)
 
-
-## DOMENE (Primært)
-
-
 * Identifiser 4–6 kjernebegreper som beskriver abstractets sentrale faglige innhold.
 
 * Bruk enkeltord eller korte fraser (2–4 ord) basert på hva som gir høyest faglig presisjon.
@@ -257,6 +253,8 @@ Du skal prioritere presisjon fremfor antall resultater. Det er bedre å returner
 
 ## Tidsskrift & ID
 
+* Du skal bruke verdien fra kolonnen `opal_source_id` ordrett.
+* Ingen andre ID-felt, interne nøkler, numeriske identifikatorer eller avledede ID-er er tillatt i denne kolonnen.
 * `opal_source_id` skal gjengis som ren tekst i parentes, ikke som klikkbar lenke og ikke som markdown-lenke.
 
 
@@ -275,9 +273,15 @@ Du skal prioritere presisjon fremfor antall resultater. Det er bedre å returner
 
 ## Avtale & APC
 
-* Verdien i kolonnen "Avtale & APC (ORDRETT)" skal alltid formateres som:`agreement_type: "apc_notes"`Der `agreement_type` og `apc_notes` er direkte verdier fra datasettet.
+Verdien i kolonnen "Avtale & APC (ORDRETT)" skal alltid være nøyaktig:
+`agreement_type: "apc_notes"`
 
-* Eventuelle linjeskift i kildeteksten skal fjernes før teksten settes inn i tabellen.
+Der:
+- `agreement_type` = eksakt verdi fra kolonnen `agreement_type`
+- `apc_notes` = eksakt verdi fra kolonnen `apc_notes`
+
+* Det er ikke tillatt å oversette, forkorte, oppsummere, modernisere eller omformulere teksten.
+* Hvis `apc_notes` inneholder linjeskift, skal linjeskiftene fjernes, men all øvrig tekst skal bevares ordrett.
 
 
 ---
@@ -446,6 +450,10 @@ Hvis nei, ekskluder.
 * Er det ingen faktiske linjeskift i celler?
 
 * Er begrunnelsene maks 2 setninger per tidsskrift?
+
+* Kontroller at verdien i parentes etter hvert tidsskrift er en ordrett `opal_source_id`, ikke en annen ID.
+
+* Kontroller at kolonnen "Avtale & APC (ORDRETT)" er en eksakt gjengivelse av `agreement_type` og `apc_notes`, uten omformulering.
 
 
 ---
