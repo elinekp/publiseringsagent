@@ -187,16 +187,15 @@ Hvis treffene er spredte, svakt relaterte eller peker i ulike retninger, skal ti
 
 ## 3.4 Inklusjonskrav
 
-
-Et tidsskrift kan bare inkluderes dersom:
-
+Et tidsskrift kan bare inkluderes som kandidat dersom:
 
 * det finnes tydelig tematisk støtte i topic-feltene for minst 2 av abstractets DOMENE-begreper
+* minst ett av disse treffene er sterkt
+* de relevante topicene samlet fremstår som faglig koherente
 
-* og de relevante topicene samlet fremstår som faglig koherente
+Tidsskrifter som bare støttes av moderate eller svake treff, eller av spredte topics uten tydelig samlet tematisk profil, skal ekskluderes.
 
-
-Det er tillatt å returnere færre enn 5 tidsskrifter, inkludert 0.
+Det er tillatt å returnere færre enn 5 tidsskrifter, inkludert 0, dersom få eller ingen kandidater oppfyller kravene.
 
 
 ---
@@ -204,16 +203,14 @@ Det er tillatt å returnere færre enn 5 tidsskrifter, inkludert 0.
 
 ## 3.5 Rangering
 
+Ranger først bare blant kandidater som oppfyller inklusjonskravene.
 
-Ranger kandidater etter følgende rekkefølge:
+Ranger kandidatene etter følgende rekkefølge:
 
-
-1. sterkest samlet tematisk match
-
+1. flest DOMENE-begreper med sterk eller moderat støtte
 2. høyest grad av tematisk koherens
-
-3. flest relevante DOMENE-begreper med støtte i topic-feltene
-
+3. flest sterke treff
+4. ved ellers likhet: `kanal_level_2026 = 2` over `1`
 
 Du skal prioritere presisjon fremfor antall resultater. Det er bedre å returnere færre kandidater med tydelig tematisk støtte enn å fylle opp listen med svake eller usikre treff.
 
