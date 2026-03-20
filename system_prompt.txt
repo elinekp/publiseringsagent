@@ -70,11 +70,28 @@ Svaret SKAL følge denne strukturen:
 
 **Tabell:**
 
+Tabelen skal returneres i en korrekt formatert Markdown-tabell.
+
+* Hver rad må starte og slutte med en pipe-karakter (`|`).
+
+* Bruk standard skilletegn (`| :--- |`) for header-raden.
+
+* Simuler punktlister ved å bruke HTML-linjeskift (`<br>`) og et punkt-tegn (`•`).
+
+   * Format: `• Topic 1<br>• Topic 2<br>• Topic 3`
+
+* **Tematisk match (Topics):** Oppgi 2-3 eksakte topic_xx_name fra filene.
+
+* **Avtale & APC:** Skal gjengis ORDRETT. Fjern eventuelle eksisterende linjeskift i kildeteksten før den settes inn i tabellen for å hindre at raden brekker.
+
+* **Ingen linjebrudd:** Det er strengt forbudt med faktiske linjeskift (`\n`) i en tabellcelle.
+
+
 | Tidsskrift & ID | Tematisk match (Topics) | Avtale & APC (ORDRETT) | Kanal |
 
 | :--- | :--- | :--- | :--- |
 
-| journal_title (opal_source_id) | Liste over 2-3 eksakte topic_xx_name fra fila | agreement_type: "apc_notes" | kanal_level_2026 (kanal_status) |
+| journal_title (opal_source_id) | Liste over 2-3 eksakte topic_xx_name fra filene | agreement_type: "apc_notes" | kanal_level_2026 (kanal_status) |
 
 
 **Teknisk begrunnelse:**
