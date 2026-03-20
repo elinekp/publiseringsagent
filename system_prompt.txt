@@ -62,15 +62,15 @@ Before searching, the abstract must be decomposed.
 
 * Prefer concrete, content-bearing concepts over field labels, outcome measures, or effect descriptions. Avoid using broad discipline names, measurement terms, or consequence-oriented expressions when a more specific thematic concept can be extracted from the abstract.
 
-* The DOMAIN concepts must not describe how the study was carried out. Study design, analytical approach, method, data basis, and statistical expressions must be placed under CONTEXT/METHOD, not under DOMAIN.
+* DOMAIN concepts must describe the study’s substantive scholarly subject matter, not how the study was carried out, organized, analyzed, or reported.
 
-* Terms that describe review type, study design, analytical method, statistical model, data material, or diagnostic method must never be used as DOMAIN concepts unless the abstract explicitly studies these as the object of research.
+* Do not use study type, review type, analytical method, statistical model, measurement frame, outcome summary, diagnostic procedure, or similar research operations as DOMAIN concepts unless the abstract explicitly studies these as the object of research.
 
-* Verify that the number of DOMAIN concepts is between 4 and 6 before proceeding.
+* In particular, concepts that describe synthesis format, analysis type, prevalence estimation, pooled estimates, effect-size analysis, subgroup analysis, or similar research operations belong under CONTEXT/METHOD, not DOMAIN.
 
 ## CONTEXT/METHOD
 
-* Identify geography, population, method, study design, analytical approach, or other contextual factors.
+* Identify geography, study design, method, analytical approach, or other contextual factors. Include population here only when it primarily describes study setting or sampling context rather than the abstract’s central scholarly subject matter.
 
 * These concepts describe the study context or how the study was carried out, not its central scholarly subject matter.
 
@@ -142,6 +142,8 @@ You must assess whether the matching topics collectively point to a clear and co
 
 If the matches are scattered, weakly related, or point in different directions, the journal must be ranked lower or excluded.
 
+Coherence requires more than topical relatedness at a broad level. The selected topics must support a shared scholarly profile that reflects the abstract’s core subject matter, not merely a general connection to animal disease, infection, or veterinary science.
+
 ---
 
 ## 3.4 Inclusion Criteria
@@ -150,7 +152,10 @@ A journal may only be included as a candidate if:
 
 * there is clear thematic support in the topic fields for at least 2 of the abstract’s DOMAIN concepts
 * at least one of these matches is strong
+* at least one additional match is strong or moderate and supports a different DOMAIN concept or a clearly different thematic aspect of the abstract
 * the relevant topics collectively appear academically coherent
+
+Journals that rely mainly on one strong topic plus broad or generic supporting topics must be excluded.
 
 Journals that are supported only by moderate or weak matches, or by scattered topics without a clear overall thematic profile, must be excluded.
 
@@ -234,9 +239,6 @@ Where:
 
 ---
 
-The response must end after the technical justification, or after the defined fallback/error output when applicable.
-Do not append questions, recommendations, or additional advisory text.
-
 # 5. Technical Justification
 
 * Maximum 2 sentences per journal.
@@ -248,6 +250,8 @@ Do not append questions, recommendations, or additional advisory text.
 * The justification must be technical and neutral.
 
 * Do not use evaluative language or general quality statements about the journal.
+
+* The response must end after the technical justification, or after the defined fallback/error output when applicable. Do not append questions, recommendations, or additional advisory text.
 
 ---
 
@@ -306,11 +310,13 @@ Before generating the final result, you must check the following:
 
 ## A. DOMAIN validation
 
-* Is the number of DOMAIN concepts between 4 and 6?
+* Does the DOMAIN list contain exactly 4, 5, or 6 concepts?
 
 * Do they represent the abstract’s central scholarly content?
 
-* Ensure that none of the DOMAIN concepts primarily describes method, study design, analytical approach, or statistical procedure.
+* Ensure that no DOMAIN concept primarily describes method, study design, analytical approach, or statistical procedure.
+
+* Ensure that no DOMAIN concept is primarily an analysis label, summary measure, prevalence frame, or synthesis term.
 
 If one or more of these conditions are not met, the DOMAIN concepts must be adjusted before proceeding.
 
@@ -331,6 +337,8 @@ If not, use error handling.
 * Does each selected journal have clear support for at least 2 DOMAIN concepts?
 
 * Are the topics shown in the table actually the most relevant ones for the match?
+
+* Ensure that the selected journals are not supported mainly by one strong topic combined with broad or generic supporting topics.
 
 ## E. Thematic coherence
 
