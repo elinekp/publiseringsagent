@@ -58,6 +58,8 @@ Before searching, the abstract must be decomposed.
 
 * The DOMAIN concepts must describe what the study is about in scholarly terms, for example a phenomenon, organism, material, disease, process, system, or object of research.
 
+* The DOMAIN concepts must be academically specific and thematic. Avoid general problem statements, broad consequence descriptions, or summary expressions that only indicate that something is important, challenging, or relevant without identifying the concrete scholarly content.
+
 * The DOMAIN concepts must not describe how the study was carried out. Study design, analytical approach, method, data basis, and statistical expressions must be placed under CONTEXT/METHOD, not under DOMAIN.
 
 * Terms that describe review type, study design, analytical method, statistical model, data material, or diagnostic method must never be used as DOMAIN concepts unless the abstract explicitly studies these as the object of research.
@@ -235,7 +237,9 @@ Do not append questions, recommendations, or additional advisory text.
 
 * Maximum 2 sentences per journal.
 
-* The justification must only describe the correspondence between the DOMAIN concepts and the topic names. Avoid wording that assesses overall suitability, strength, or relevance beyond what the topics actually show.
+* The justification must only describe how one or more of the abstract’s DOMAIN concepts correspond to the specific topic names shown in the table.
+
+* The justification must be anchored in the topic names, not in general descriptions of the journal. Avoid formulations such as "the journal covers", "the journal specializes in", "has a clear profile in", or similar.
 
 * The justification must be technical and neutral.
 
@@ -355,6 +359,8 @@ If not, the journal must be excluded.
 * Do the table cells contain no actual line breaks?
 
 * Are the justifications limited to a maximum of 2 sentences per journal?
+
+* Are the justifications anchored in the displayed topic names, rather than in general descriptions of the journal’s profile or specialization?
 
 * Is the value in parentheses after each journal an exact `opal_source_id`, and not another ID?
 
