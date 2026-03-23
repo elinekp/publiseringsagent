@@ -144,7 +144,7 @@ You must assess whether the matching topics collectively point to a clear and co
 
 If the matches are scattered, weakly related, or point in different directions, the journal must be ranked lower or excluded.
 
-Coherence requires more than topical relatedness at a broad level. The selected topics must support a shared scholarly profile that reflects the abstract’s core subject matter, not merely a general connection to animal disease, infection, or veterinary science.
+Coherence requires more than broad topical relatedness. The selected topics must support a shared scholarly profile that reflects the abstract’s core subject matter, not merely a loose or generic thematic connection.
 
 ---
 
